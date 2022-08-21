@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade ead 2 ex1</title>
+    </head>
+    <body>
+        <h1>Manutenção de usuários do sistema interno</h1>
+    
+        <form>
+            <label for="login">Login:</label><br>
+            <input type="text" id="login">
+            <br><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha">
+            <br><br>
+            Status:<br> <input list="status"name="status">
+            <datalist id="status"><br>
+                <option value="inativo"></option>
+                <option value="ativo"></option>
+            </datalist>
+            <br><br>
+            <label for="tipo">Tipo:</label><br>
+            <input type="radio" name="tipo" value="Técnico">Técnico
+            <input type="radio" name="tipo" value="Professor">Professor
+            <input type="radio" name="tipo" value="Aluno">Aluno
+             <br><br>
+            <label for="data">Data de Criação: </label><br>
+            <input type="date" id="data">
+            <br><br>
+            <label for="Perfil">Perfil:</label><br>
+            <input type="radio" name="Perfil" value="Convidado">Convidado
+            <input type="radio" name="Perfil" value="Administrador">Administrador
+            <br><br>
+            <label for="observacoes">Observações</label><br>
+            <textarea col="10" rown="40" maxlength="600"></textarea>
+            <br><br>
+            <label for="Módulos">Módulos:</label><br>
+            <input type="checkbox" name="Módulos" value="Compras">Compras
+            <input type="checkbox" name="Módulos" value="Biblioteca">Biblioteca
+            <input type="checkbox" name="Módulos" value="Acadêmico">Acadêmico
+            <input type="checkbox" name="Módulos" value="Documentação">Documentação
+            <input type="checkbox" name="Módulos" value="Recursos Humanos">Recursos Humanos
+            <br><br>
+            <label for="Cadastrar"></label>
+            <input type="submit" id="Cadastrar" value="Cadastrar">
+            <label for="Excluir"></label>
+            <input type="reset" id="Excluir" value="Excluir">
+
+        </form>
+    </body>
+</html>
